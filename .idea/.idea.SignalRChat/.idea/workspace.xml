@@ -4,8 +4,9 @@
     <projectFile>SignalRChat/SignalRChat.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="add comments">
-      <change beforePath="$PROJECT_DIR$/SignalRChat/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/Startup.cs" afterDir="false" />
+    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="remove template code">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignalRChat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignalRChat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalRChat/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/Pages/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
       <option value="$PROJECT_DIR$/SignalRChat/package.json" />
       <option value="$PROJECT_DIR$/SignalRChat/Hubs/ChatHub.cs" />
       <option value="$PROJECT_DIR$/SignalRChat/Startup.cs" />
+      <option value="$PROJECT_DIR$/SignalRChat/Pages/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vjBqDr7A9d82DNPxwllDH8Lktf" />
@@ -85,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627065807342</updated>
-      <workItem from="1627065812010" duration="404000" />
+      <workItem from="1627065812010" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1627065822077</created>
@@ -122,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627066146062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add the signalr service in Startup.cs and configure and endpoint">
+      <created>1627066240015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627066240015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="remove template code">
+      <created>1627066262358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627066262358</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +165,8 @@
     <MESSAGE value="create a signalr hub" />
     <MESSAGE value="add a method to send a message to all clients" />
     <MESSAGE value="add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
+    <MESSAGE value="add the signalr service in Startup.cs and configure and endpoint" />
+    <MESSAGE value="remove template code" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove template code" />
   </component>
 </project>
