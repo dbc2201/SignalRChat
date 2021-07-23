@@ -1,19 +1,23 @@
 ﻿"use strict";
 
-// import * as signalR from "@microsoft/signalr";
+//import * as signalR from "@microsoft/signalr";
 
 let connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
 //Disable send button until connection is established
 document.getElementById("sendButton").disabled = true;
 
+let messageNumber = 0;
+
 connection.on("ReceiveMessage", function (user, message) {
-    let li = document.createElement("li");
-    document.getElementById("messagesList").appendChild(li);
+    let messageElement = document.createElement("div");
+    messageElement.className = "alert alert-primary";
+    messageElement.role = "alert";
+    document.getElementById("messagesList").appendChild(messageElement);
     // We can assign user-supplied strings to an element's textContent because it
     // is not interpreted as markup. If you're assigning in any other way, you 
     // should be aware of possible script injection concerns.
-    li.textContent = `${user} says ${message}`;
+    messageElement.textContent = `${messageNumber++}: ${user} says ${message}`;
 });
 
 connection.start().then(function () {
@@ -23,8 +27,8 @@ connection.start().then(function () {
 });
 
 document.getElementById("sendButton").addEventListener("click", function (event) {
-    var user = document.getElementById("userInput").value;
-    var message = document.getElementById("messageInput").value;
+    let user = document.getElementById("userInput").value;
+    let message = document.getElementById("messageInput").value;
     connection.invoke("SendMessage", user, message).catch(function (err) {
         return console.error(err.toString());
     });
