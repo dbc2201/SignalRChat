@@ -4,8 +4,8 @@
     <projectFile>SignalRChat/SignalRChat.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/SignalRChat/package.json" afterDir="false" />
+    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="add comments">
+      <change beforePath="$PROJECT_DIR$/SignalRChat/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/SignalRChat/package.json" />
+      <option value="$PROJECT_DIR$/SignalRChat/Hubs/ChatHub.cs" />
+      <option value="$PROJECT_DIR$/SignalRChat/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vjBqDr7A9d82DNPxwllDH8Lktf" />
@@ -36,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627065807342</updated>
-      <workItem from="1627065812010" duration="102000" />
+      <workItem from="1627065812010" duration="404000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1627065822077</created>
@@ -91,7 +94,35 @@
       <option name="project" value="LOCAL" />
       <updated>1627065822078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add client side signalr library to project">
+      <created>1627065953245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627065953245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create a signalr hub">
+      <created>1627065999571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627065999571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add a method to send a message to all clients">
+      <created>1627066083502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627066083502</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add comments">
+      <created>1627066146062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627066146062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,8 +142,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="add client side signalr library to project" />
+    <MESSAGE value="create a signalr hub" />
+    <MESSAGE value="add a method to send a message to all clients" />
+    <MESSAGE value="add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
   </component>
 </project>
