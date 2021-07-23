@@ -1,12 +1,13 @@
 ﻿"use strict";
 
-//import * as signalR from "@microsoft/signalr";
+// import * as signalR from "@microsoft/signalr";
 
 let connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
-//Disable send button until connection is established
+// Disable send button until connection is established
 document.getElementById("sendButton").disabled = true;
 
+// set the message number as zero on init
 let messageNumber = 0;
 
 connection.on("ReceiveMessage", function (user, message) {
@@ -14,9 +15,7 @@ connection.on("ReceiveMessage", function (user, message) {
     messageElement.className = "alert alert-primary";
     messageElement.role = "alert";
     document.getElementById("messagesList").appendChild(messageElement);
-    // We can assign user-supplied strings to an element's textContent because it
-    // is not interpreted as markup. If you're assigning in any other way, you 
-    // should be aware of possible script injection concerns.
+    // TODO shift message ltr or rtl based on the user
     messageElement.textContent = `${messageNumber++}: ${user}: ${message}`;
 });
 
