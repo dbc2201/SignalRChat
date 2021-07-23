@@ -4,162 +4,8 @@
     <projectFile>SignalRChat/SignalRChat.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="add signalr js files to wwwroot">
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/browser/signalr.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/browser/signalr.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/AbortController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/AbortController.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/DefaultHttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/DefaultHttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/DefaultReconnectPolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/DefaultReconnectPolicy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Errors.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/FetchHttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/FetchHttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HandshakeProtocol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HandshakeProtocol.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HttpConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HttpConnection.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HubConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HubConnection.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HubConnectionBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/HubConnectionBuilder.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IConnection.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IHttpConnectionOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IHttpConnectionOptions.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IHubProtocol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IHubProtocol.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/ILogger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/ILogger.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IRetryPolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/IRetryPolicy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/ITransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/ITransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/JsonHubProtocol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/JsonHubProtocol.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Loggers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Loggers.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/LongPollingTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/LongPollingTransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Polyfills.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/ServerSentEventsTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/ServerSentEventsTransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Stream.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Subject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Subject.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/TextMessageFormat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/TextMessageFormat.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/Utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/WebSocketTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/WebSocketTransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/XhrHttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/XhrHttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/browser-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/browser-index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/cjs/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/AbortController.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/AbortController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/AbortController.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/DefaultHttpClient.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/DefaultHttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/DefaultHttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/DefaultReconnectPolicy.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/DefaultReconnectPolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/DefaultReconnectPolicy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Errors.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Errors.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/FetchHttpClient.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/FetchHttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/FetchHttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HandshakeProtocol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HandshakeProtocol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HandshakeProtocol.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HttpClient.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HttpConnection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HttpConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HttpConnection.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HubConnection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HubConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HubConnection.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HubConnectionBuilder.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HubConnectionBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/HubConnectionBuilder.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IConnection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IConnection.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IHttpConnectionOptions.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IHttpConnectionOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IHttpConnectionOptions.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IHubProtocol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IHubProtocol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IHubProtocol.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ILogger.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ILogger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ILogger.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IRetryPolicy.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IRetryPolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/IRetryPolicy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ITransport.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ITransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ITransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/JsonHubProtocol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/JsonHubProtocol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/JsonHubProtocol.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Loggers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Loggers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Loggers.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/LongPollingTransport.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/LongPollingTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/LongPollingTransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Polyfills.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Polyfills.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ServerSentEventsTransport.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ServerSentEventsTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/ServerSentEventsTransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Stream.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Stream.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Subject.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Subject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Subject.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/TextMessageFormat.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/TextMessageFormat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/TextMessageFormat.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Utils.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/Utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/WebSocketTransport.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/WebSocketTransport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/WebSocketTransport.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/XhrHttpClient.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/XhrHttpClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/XhrHttpClient.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/browser-index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/browser-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/browser-index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/esm/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/webworker/signalr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/webworker/signalr.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/webworker/signalr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/webworker/signalr.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignalRChat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignalRChat/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="move signalr files to correct path, show message as html alert, add message number to message">
       <change beforePath="$PROJECT_DIR$/SignalRChat/wwwroot/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr.js" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/browser/signalr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/signalr/dist/browser/signalr.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627065807342</updated>
-      <workItem from="1627065812010" duration="2241000" />
+      <workItem from="1627065812010" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1627065822077</created>
@@ -321,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627067342192</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="move signalr files to correct path, show message as html alert, add message number to message">
+      <created>1627068138895</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627068138895</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +207,7 @@
     <MESSAGE value="add the chat.js file" />
     <MESSAGE value="add code for client side chat" />
     <MESSAGE value="add signalr js files to wwwroot" />
-    <option name="LAST_COMMIT_MESSAGE" value="add signalr js files to wwwroot" />
+    <MESSAGE value="move signalr files to correct path, show message as html alert, add message number to message" />
+    <option name="LAST_COMMIT_MESSAGE" value="move signalr files to correct path, show message as html alert, add message number to message" />
   </component>
 </project>
