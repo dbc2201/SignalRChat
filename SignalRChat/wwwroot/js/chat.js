@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-import * as signalR from "@microsoft/signalr";
+// import * as signalR from "@microsoft/signalr";
 
 let connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 

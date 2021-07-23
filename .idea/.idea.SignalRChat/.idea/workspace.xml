@@ -4,9 +4,8 @@
     <projectFile>SignalRChat/SignalRChat.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="remove template code">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignalRChat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignalRChat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignalRChat/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/Pages/Index.cshtml" afterDir="false" />
+    <list default="true" id="bd7284bd-2069-45da-b69e-dc534d154c25" name="Default Changelist" comment="add code for client side chat">
+      <change beforePath="$PROJECT_DIR$/SignalRChat/wwwroot/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRChat/wwwroot/js/chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSON File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,6 +29,7 @@
       <option value="$PROJECT_DIR$/SignalRChat/Hubs/ChatHub.cs" />
       <option value="$PROJECT_DIR$/SignalRChat/Startup.cs" />
       <option value="$PROJECT_DIR$/SignalRChat/Pages/Index.cshtml" />
+      <option value="$PROJECT_DIR$/SignalRChat/wwwroot/js/chat.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vjBqDr7A9d82DNPxwllDH8Lktf" />
@@ -87,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627065807342</updated>
-      <workItem from="1627065812010" duration="1129000" />
+      <workItem from="1627065812010" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1627065822077</created>
@@ -138,7 +139,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627066262358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add index page view to show the user name and message input with send message button">
+      <created>1627066995312</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627066995312</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add the chat.js file">
+      <created>1627067017407</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627067017407</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add code for client side chat">
+      <created>1627067049495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627067049495</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +189,9 @@
     <MESSAGE value="add comments" />
     <MESSAGE value="add the signalr service in Startup.cs and configure and endpoint" />
     <MESSAGE value="remove template code" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove template code" />
+    <MESSAGE value="add index page view to show the user name and message input with send message button" />
+    <MESSAGE value="add the chat.js file" />
+    <MESSAGE value="add code for client side chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code for client side chat" />
   </component>
 </project>
